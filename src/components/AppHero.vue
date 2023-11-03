@@ -2,17 +2,15 @@
 export default {
     data() {
     return {
-        message: 'La mia prima app con Vite!'
+        prova: 'Hello!'
     }
     },
-    methods: {
-    }
 }
 
 </script>
 
 <template>
-    <div> {{ message }}</div>
+    <div> {{ prova }}</div>
 </template>
 
 <style scoped>
